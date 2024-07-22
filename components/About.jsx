@@ -27,7 +27,7 @@ const About = () => {
             cupiditate perferendis dolor aliquid eveniet, culpa quasi nihil corporis ullam id autem at. Itaque tempora sed exerci
             tationem quasi aliquam sit!
             </p>
-          <p className='text-white text-[1rem]  mb-14'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas esse 
+          <p className='text-white text-[1rem] mb-14'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quas esse 
             officiis quidem ipsum nemo.
             </p>
         </div>
