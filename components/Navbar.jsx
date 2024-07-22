@@ -31,25 +31,28 @@ const NavBar = (
   }, []);
   return (
     <div className={`bg-secondary ${showShadow ? 'bg-opacity-95' : 'bg-opacity-100'}
-       w-full  px-[15rem] py-4 flex justify-between  items-center
-    top-0 left-0 sticky mb-0  'shadow-lg shadow-transparent'`}>
-      <div className="logo w-[5%] "><img src="/assets/images/logos/logo_home.png" alt="" /></div>
-      <div className="relative">
-        <button onClick={toggleMenu} className="flex gap-4 items-center justify-center p-2 bg-slate-800
-        text-[#dce5e2] text-[1rem] rounded-md ">
-          <small>Menu</small>
-          <Image src={menuOpen ? '/close.svg' : '/hamburgerMenu.svg'} alt="open menu" width={17} height={17} />
-        </button>
+       w-full  px-[15rem] py-4  top-0 left-0 sticky mb-0  shadow-lg `}>
 
-        {menuOpen && <div className="absolute right-0 z-50 mt-2 w-32 origin-top-right bg-secondary
-        p-2 menu flex flex-col gap-2  justify-end items-center rounded-sm">
-          <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Home</div></Link>
-          <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">About Us</div></Link>
-          <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Services</div></Link>
-          <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Blog</div></Link>
-          <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
-        </div>}
+      <div className="relative flex justify-between  items-center">
+        <div className="logo w-[5%] "><img src="/assets/images/logos/logo_home.png" alt="" /></div>
+        <div className="">
+          <button onClick={toggleMenu} className="flex gap-4 items-center justify-center p-2 bg-slate-800
+        text-[#dce5e2] text-[1rem] rounded-md ">
+            <small>Menu</small>
+            <Image src={menuOpen ? '/close.svg' : '/hamburgerMenu.svg'} alt="open menu" width={17} height={17} />
+          </button>
+
+          {menuOpen && <div className="absolute right-3 z-50 mt-2 w-full h-[100vh] origin-top-right bg-secondary
+        bg-opacity-95 p-2 menu flex flex-col gap-2  justify-center items-center uppercase">
+            <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Home</div></Link>
+            <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">About Us</div></Link>
+            <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Services</div></Link>
+            <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Blog</div></Link>
+            <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
+          </div>}
+        </div>
       </div>
+
 
     </div>
   )
