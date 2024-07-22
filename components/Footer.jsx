@@ -1,11 +1,11 @@
 import React from 'react'
 const Footer = () => {
-  return (
-    <div>
-        <div className="bg-primary overflow-x-hidden flex flex-col items-center">
-                <div className="px-[17rem] py-[3rem] flex justify-center items-center gap-16 ">
+    return (
+        <div>
+            <div className="bg-primary flex flex-col items-center">
+                <div className="px-[15rem] py-[3rem] flex justify-center items-center gap-16 ">
                     <div className="bg">
-                        <img src="/assets/images/logos/logo_footer_sur.png" className='w-[15rem] mb-8' alt="" />
+                        <img src="/assets/images/logos/logo_footer.png" className='w-[15rem] mb-8' alt="" />
                         <p className='text-white text-[1rem] '>Nous sommes basés à Goma, RD Congo.</p>
                     </div>
                     <div className="space-y-5">
@@ -41,8 +41,8 @@ const Footer = () => {
                     <p className='text-center text-white text-[1rem] font-medium mb-6'>© 2023. Copy right  by rooy.creativo</p>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Footer
