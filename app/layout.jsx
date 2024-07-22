@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={gantari.className}>
+      <body className={`${gantari.className} bg-secondary`}>
         <NavBar />
         {children}
         <Footer />
