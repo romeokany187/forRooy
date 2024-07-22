@@ -11,6 +11,7 @@ const NavBar = (
         <Link href="/"><div className="text-white text-[1rem] cursor-pointer ">Home</div></Link>
         <Link href="/"><div className="text-white text-[1rem] cursor-pointer">About Us</div></Link>
         <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Services</div></Link>
+        <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Blog</div></Link>
         <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Contacts</div></Link>
       </div>
     </div>
