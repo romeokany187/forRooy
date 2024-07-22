@@ -21,7 +21,7 @@ const Banner = () => {
             } >
                 <div className="w-[55%]">
                     <h1 className='text-[#dce5e2] text-6xl font-extrabold mb-5'>Où l'art <br /> devient vivant <br /> & creatif</h1>
-                    <p className='text-[#dce5e2]  text-[1.1rem] mb-[3rem]'>Chez <span className='text-green'>r<span>O</span>oy.creativo</span> Nous croyons en la puissance de la créativité pour transforùer des idées en réalisation exceptionelles</p>
+                    <p className='text-[#dce5e2]  text-[1rem] mb-[3rem]'>Chez <span className='text-green'>r<span>O</span>oy.creativo</span> Nous croyons en la puissance de la créativité pour transforùer des idées en réalisation exceptionelles</p>
                     <div className="flex gap-6">
                         <div className="">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler bg-green rounded-full p-2 icon-tabler-player-play-filled" width="54" height="54" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
