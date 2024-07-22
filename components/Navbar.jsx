@@ -30,7 +30,7 @@ const NavBar = (
     };
   }, []);
   return (
-    <div className={`bg-secondary ${showShadow ? 'bg-opacity-95' : 'bg-opacity-100'} bg-opacity-95
+    <div className={`bg-secondary ${showShadow ? 'bg-opacity-95' : 'bg-opacity-100'}
        w-full  px-[8rem] py-4 flex justify-between  items-center
     top-0 left-0 sticky mb-0  'shadow-lg shadow-transparent'`}>
       <div className="logo w-[5%] "><img src="/assets/images/logos/logo_home.png" alt="" /></div>
