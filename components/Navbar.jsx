@@ -9,7 +9,7 @@ const NavBar = (
 
   useEffect(() => {
     const handleScroll = () =>{
-      if(window.scroll > 0) {
+      if(window.scrollY > 0) {
         setShowShadow(true)
         console.log('papa');
         
@@ -25,7 +25,7 @@ const NavBar = (
   }, []);
   return (
     <div className={`bg-secondary bg-opacity-95 w-full  px-[8rem] py-4 flex justify-center  items-center
-    top-0 left-0 sticky mb-0  ${showShadow ? 'shadow-2xl shadow-transparent' : ''} `}>
+    top-0 left-0 sticky mb-0  ${showShadow ? 'shadow-2xl shadow-white' : ''} `}>
       <div className="logo w-[5%] "><img src="/assets/images/logos/logo_home.png" alt="" /></div>
       <div className="menu flex flex-row gap-10 w-[75%] justify-end items-center">
         <Link href="/"><div className="text-white text-[1rem] cursor-pointer ">Home</div></Link>
