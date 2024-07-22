@@ -29,11 +29,11 @@ const NavBar = (
     top-0 left-0 sticky mb-0  'shadow-lg shadow-transparent'`}>
       <div className="logo w-[5%] "><img src="/assets/images/logos/logo_home.png" alt="" /></div>
       <div className="menu flex flex-row gap-10 w-[75%] justify-end items-center">
-        <Link href="/"><div className="text-white text-[1rem] cursor-pointer ">Home</div></Link>
-        <Link href="/"><div className="text-white text-[1rem] cursor-pointer">About Us</div></Link>
-        <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Services</div></Link>
-        <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Blog</div></Link>
-        <Link href="/"><div className="text-white text-[1rem] cursor-pointer">Contacts</div></Link>
+        <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Home</div></Link>
+        <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">About Us</div></Link>
+        <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Services</div></Link>
+        <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Blog</div></Link>
+        <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
       </div>
     </div>
   )
