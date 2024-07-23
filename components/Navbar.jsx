@@ -41,7 +41,7 @@ const NavBar = (
           <LanguageSwitcher />
           <button onClick={toggleMenu} className="flex gap-4 items-center justify-center p-2 bg-slate-800
         text-[#dce5e2] text-[1rem] rounded-md z-50">
-            <small>MENU</small>
+            <small className="font-bold">MENU</small>
             <Image src={menuOpen ? '/close.svg' : '/menu.svg'} alt="open menu" width={17} height={17} />
           </button>
 
