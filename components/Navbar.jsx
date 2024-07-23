@@ -42,7 +42,7 @@ const NavBar = (
           <button onClick={toggleMenu} className="flex gap-4 items-center justify-center p-2 bg-slate-800
         text-[#dce5e2] text-[1rem] rounded-md z-50">
             <small>Menu</small>
-            <Image src={menuOpen ? '/close.svg' : '/hamburgerMenu.svg'} alt="open menu" width={17} height={17} />
+            <Image src={menuOpen ? '/close.svg' : '/menu.svg'} alt="open menu" width={17} height={17} />
           </button>
 
           {menuOpen && <div className="absolute top-0 right-0 w-full h-[100vh] origin-top-right bg-secondary

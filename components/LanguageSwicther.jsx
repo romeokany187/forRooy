@@ -20,7 +20,7 @@ const LanguageSwitcher = () => {
 
     return (
         <div className="flex items-center gap-2 px-1 bg-slate-800 rounded-md z-50">
-            <Image src="/assets/Language.png" alt="Language Flag" width={17} height={24} />
+            <Image src="/language.svg" alt="Language Flag" width={17} height={24} />
             <div className="w-[1rem] h-[1rem]">
                 <img src={getFlagSrc(language)} alt="Language Flag" className="object-fill w-full h-full rounded-[50%]" />
             </div>
