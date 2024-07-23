@@ -26,8 +26,8 @@ const LanguageSwitcher = () => {
             </div>
             <select value={language} onChange={handleLanguageChange} className=" bg-slate-800
              text-[#dce5e2] text-[1rem]   border-none rounded  py-1 outline-none">
-                <option value="en">EN</option>
-                <option value="fr">FR</option>
+                <option value="en">en</option>
+                <option value="fr">fr</option>
             </select>
         </div>
     );
