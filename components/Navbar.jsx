@@ -47,8 +47,9 @@ const NavBar = (
             <small className="font-bold">MENU</small>
             <CSSTransition
                 in={menuOpen}
-                timeout={300}
-                classNames="icon" 
+                timeout={200}
+                classNames="fade icon" 
+                appear = {true}
             >
                 <div>
                     <Image 
