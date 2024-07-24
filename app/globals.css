@@ -5,3 +5,25 @@
 .shadow-lg {
     box-shadow: 0 2px 5px -1px rgba(252, 252, 252, 0.08);
   }
+
+  .icon-enter {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.icon-enter-active {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.icon-exit {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.icon-exit-active {
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}

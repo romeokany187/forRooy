@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import LanguageSwitcher from "./LanguageSwicther";
+import {CSSTransition} from 'react-transition-group'
 
 const NavBar = (
   { className }
@@ -33,17 +34,32 @@ const NavBar = (
   }, []);
   return (
     <div className={`bg-secondary ${showShadow ? 'bg-opacity-95' : 'bg-opacity-100'}
-       w-full  px-[15rem] py-4  top-0 left-0 sticky mb-0  shadow-lg  `}>
+       w-full  px-[15rem] py-4  top-0 left-0 sticky mb-0  shadow-xl shadow-transparent `}>
 
       <div className="relative flex justify-between  items-center">
         <div className="logo w-[5%] z-50"><img src="/assets/images/logos/logo_home.png" alt="" /></div>
         <div className="flex gap-6">
           <LanguageSwitcher />
-          <button onClick={toggleMenu} className="flex gap-4 items-center justify-center p-2 bg-slate-800
-        text-[#dce5e2] text-[1rem] rounded-md z-50">
+          <button 
+            onClick={toggleMenu} 
+            className="flex gap-4 items-center justify-center p-2 bg-slate-800 text-[#dce5e2] text-[1rem] rounded-md z-50"
+        >
             <small className="font-bold">MENU</small>
-            <Image src={menuOpen ? '/close.svg' : '/menu.svg'} alt="open menu" width={17} height={17} />
-          </button>
+            <CSSTransition
+                in={menuOpen}
+                timeout={300}
+                classNames="icon" 
+            >
+                <div>
+                    <Image 
+                        src={menuOpen ? '/close.svg' : '/menu.svg'} 
+                        alt="open menu" 
+                        width={17} 
+                        height={17} 
+                    />
+                </div>
+            </CSSTransition>
+        </button>
 
           {menuOpen && <div className="absolute top-0 right-0 w-full h-[100vh] origin-top-right bg-secondary
         bg-opacity-95 px-8 py-10  ">
