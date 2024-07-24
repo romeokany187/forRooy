@@ -42,10 +42,10 @@ const ButtonMenu = () => {
                     (
 
                         <motion.div
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            exit={{ scale: 0 }}
-                            transition={{ duration: 0.5 }}
+                            initial={{ translateY: -1000 }}
+                            animate={{ translateY: 0  }}
+                            exit={{ translateY: -1000 }}
+                            transition={{ duration: 0.9 }}
                             className="absolute top-0 right-0 w-full h-[100vh] bg-secondary bg-opacity-95 px-8 py-10"
                         >
                             <>
