@@ -1,5 +1,8 @@
 import React from 'react'
 import { CSSTransition } from 'react-transition-group'
+import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 
 const ButtonMenu = () => {
@@ -18,7 +21,7 @@ const ButtonMenu = () => {
                 <small className="font-bold">MENU</small>
                 <CSSTransition
                     in={menuOpen}
-                    timeout={300}
+                    timeout={500}
                     classNames="icon"
                 >
                     <div>
