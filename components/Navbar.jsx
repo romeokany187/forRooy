@@ -15,11 +15,9 @@ const NavBar = (
     const handleScroll = () => {
       if (window.scrollY > 73) {
         setShowShadow(true)
-        console.log('papa');
 
       } else {
         setShowShadow(false)
-        console.log('mama');
       }
     }
     window.addEventListener('scroll', handleScroll);
@@ -31,7 +29,7 @@ const NavBar = (
     <div className={`bg-secondary ${showShadow ? 'bg-opacity-95' : 'bg-opacity-100'}
        w-full  px-[15rem] py-4  top-0 left-0 sticky mb-0  shadow-xl shadow-transparent `}>
 
-      <div className="relative flex justify-between  items-center">
+      <div className=" flex justify-between  items-center">
         <div className="logo w-[5%] z-50"><img src="/assets/images/logos/logo_home.png" alt="" /></div>
         <div className="flex gap-6">
           <LanguageSwitcher />

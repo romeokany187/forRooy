@@ -46,7 +46,7 @@ const ButtonMenu = () => {
                             animate={{ translateY: 0  }}
                             exit={{ translateY: -1000 }}
                             transition={{ duration: 0.9 }}
-                            className="absolute top-0 right-0 w-full h-[100vh] bg-secondary bg-opacity-95 px-8 py-10"
+                            className="absolute top-0 right-0 w-full h-[100vh] bg-secondary bg-opacity-95 px-[15rem] py-10"
                         >
                             <>
                                 <div className="">
