@@ -53,21 +53,21 @@ const ButtonMenu = () => {
                                     <div className="w-full h-[90vh] flex flex-col justify-center  gap-[9rem] ">
                                         <div className="flex gap-[15rem] mt-12 text-[1.7rem] font-bold text-[#c4c3c3]">
                                             <div className="">
-                                                <p className="mb-4">Bienvenue</p>
+                                                <p className="mb-4 hover:text-[#ffffff] cursor-pointer">Bienvenue</p>
                                                 <div className="flex flex-col gap-2 ">
-                                                    <Link href="/aboutt"><div className="cursor-pointer ">Apropos</div></Link>
-                                                    <Link href="/expertise"><div className="cursor-pointer">Expertise</div></Link>
-                                                    <Link href="/projects"><div className="cursor-pointer">Projets</div></Link>
-                                                    <Link href="/blog"><div className="cursor-pointer">Blog</div></Link>
+                                                    <Link href="/aboutt"><div className="cursor-pointer  hover:text-[#ffffff]">Apropos</div></Link>
+                                                    <Link href="/expertise"><div className="cursor-pointer hover:text-[#ffffff]">Expertise</div></Link>
+                                                    <Link href="/projects"><div className="cursor-pointer hover:text-[#ffffff]">Projets</div></Link>
+                                                    <Link href="/blog"><div className="cursor-pointer hover:text-[#ffffff]">Blog</div></Link>
                                                 </div>
                                             </div>
 
                                             <div className="">
-                                                <p className=" mb-4">Evèments</p>
+                                                <p className=" mb-4 hover:text-[#ffffff] cursor-pointer">Evèments</p>
                                                 <div className="flex flex-col gap-2  ">
-                                                    <Link href="/presse"><div className="cursor-pointer ">Presse</div></Link>
-                                                    <Link href="/"><div className="cursor-pointer">Services</div></Link>
-                                                    <Link href="/"><div className="cursor-pointer">Contacts</div></Link>
+                                                    <Link href="/presse"><div className="cursor-pointer  hover:text-[#ffffff]">Presse</div></Link>
+                                                    <Link href="/"><div className="cursor-pointer hover:text-[#ffffff]">Services</div></Link>
+                                                    <Link href="/"><div className="cursor-pointer hover:text-[#ffffff]">Contacts</div></Link>
                                                     <Link href="/"><div className="cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="fill-gray-500 w-[1.2rem] ">
                                                             <title>Mail</title>
