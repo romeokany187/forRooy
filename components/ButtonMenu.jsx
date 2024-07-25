@@ -53,8 +53,8 @@ const ButtonMenu = () => {
                                     <div className="w-full h-[80vh] flex flex-col justify-between ">
                                         <div className="flex gap-9 mt-8">
                                             <div className="">
-                                                <p className="text-[#dce5e2] text-[1.2rem]  font-semibold mb-4">Bienvenue</p>
-                                                <div className="flex flex-col gap-2 ">
+                                                <p className="text-[#dce5e2] text-[1rem]  font-bold mb-4">Bienvenue</p>
+                                                <div className="flex flex-col gap-2 font-bold">
                                                     <Link href="/aboutt"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Apropos</div></Link>
                                                     <Link href="/expertise"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Expertise</div></Link>
                                                     <Link href="/projects"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Projets</div></Link>
@@ -63,8 +63,8 @@ const ButtonMenu = () => {
                                             </div>
 
                                             <div className="">
-                                                <p className="text-[#dce5e2] text-[1.2rem] font-semibold mb-4">Evèments</p>
-                                                <div className="flex flex-col gap-2  ">
+                                                <p className="text-[#dce5e2] text-[1rem] font-bold mb-4">Evèments</p>
+                                                <div className="flex flex-col gap-2  font-bold">
                                                     <Link href="/presse"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Presse</div></Link>
                                                     <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
                                                     <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Services</div></Link>
