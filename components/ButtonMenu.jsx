@@ -51,7 +51,7 @@ const ButtonMenu = () => {
                             <>
                                 <div className="">
                                     <div className="w-full h-[90vh] flex flex-col justify-center  gap-[9rem] ">
-                                        <div className="flex gap-[15rem] mt-12 text-[1.5rem] font-medium">
+                                        <div className="flex gap-[15rem] mt-12 text-[1.5rem] font-bold">
                                             <div className="">
                                                 <p className="text-[#dce5e2]  mb-4">Bienvenue</p>
                                                 <div className="flex flex-col gap-2 ">
