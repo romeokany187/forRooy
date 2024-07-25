@@ -17,7 +17,7 @@ const ButtonMenu = () => {
         <>
             <button
                 onClick={toggleMenu}
-                className="flex gap-4 items-center justify-center p-2 bg-slate-800 text-[#dce5e2] text-[1rem] rounded-md z-50"
+                className="flex gap-4 items-center justify-center p-2 bg-slate-800 text-[#dce5e2] T rounded-md z-50"
             >
                 <small className="font-bold">MENU</small>
                 <CSSTransition
@@ -45,52 +45,52 @@ const ButtonMenu = () => {
                             initial={{ translateY: -1000 }}
                             animate={{ translateY: 0  }}
                             exit={{ translateY: -1000 }}
-                            transition={{ duration: 0.9 }}
+                            transition={{ duration: 1 }}
                             className="absolute top-0 right-0 w-full h-[100vh] bg-secondary bg-opacity-95 px-[15rem] py-10"
                         >
                             <>
                                 <div className="">
                                     <div className="w-full h-[80vh] flex flex-col justify-between ">
-                                        <div className="flex gap-9 mt-8">
+                                        <div className="flex gap-9 mt-8 text-[1.3rem] ">
                                             <div className="">
-                                                <p className="text-[#dce5e2] text-[1rem]   mb-4">Bienvenue</p>
+                                                <p className="text-[#dce5e2]  mb-4">Bienvenue</p>
                                                 <div className="flex flex-col gap-2 ">
-                                                    <Link href="/aboutt"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Apropos</div></Link>
-                                                    <Link href="/expertise"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Expertise</div></Link>
-                                                    <Link href="/projects"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Projets</div></Link>
-                                                    <Link href="/blog"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Blog</div></Link>
+                                                    <Link href="/aboutt"><div className="text-[#dce5e2]  cursor-pointer ">Apropos</div></Link>
+                                                    <Link href="/expertise"><div className="text-[#dce5e2]  cursor-pointer">Expertise</div></Link>
+                                                    <Link href="/projects"><div className="text-[#dce5e2]  cursor-pointer">Projets</div></Link>
+                                                    <Link href="/blog"><div className="text-[#dce5e2]  cursor-pointer">Blog</div></Link>
                                                 </div>
                                             </div>
 
                                             <div className="">
-                                                <p className="text-[#dce5e2] text-[1rem] font-bold mb-4">Evèments</p>
+                                                <p className="text-[#dce5e2]   mb-4">Evèments</p>
                                                 <div className="flex flex-col gap-2  ">
-                                                    <Link href="/presse"><div className="text-[#dce5e2] text-[1rem] cursor-pointer ">Presse</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Services</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer">Contacts</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer flex gap-2">
+                                                    <Link href="/presse"><div className="text-[#dce5e2]  cursor-pointer ">Presse</div></Link>
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Contacts</div></Link>
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Services</div></Link>
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Contacts</div></Link>
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="fill-gray-500 w-[.9rem] ">
                                                             <title>Mail</title>
                                                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                                                             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                                                         </svg>
-                                                        <p className=" text-gray-500 ">Couriel</p>
+                                                        <p className=" text-gray-500  ">Couriel</p>
                                                     </div>
                                                     </Link>
-                                                    <Link href="/"><div className="text-[#dce5e2] text-[1rem] cursor-pointer flex gap-2">
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="fill-gray-500 w-[.9rem] ">
                                                             <title>Téléphone</title>
                                                             <path d="M6.62 10.79a15.466 15.466 0 0 0 6.59 6.59l2.2-2.2a1.14 1.14 0 0 1 1.16-.27c1.26.42 2.62.65 4.02.65a1.15 1.15 0 0 1 1.15 1.15v3.84a1.15 1.15 0 0 1-1.15 1.15C10.65 22 2 13.35 2 2.15A1.15 1.15 0 0 1 3.15 1h3.84a1.15 1.15 0 0 1 1.15 1.15c0 1.4.23 2.76.65 4.02.14.46.02.97-.27 1.16l-2.2 2.2z" />
                                                         </svg>
-                                                        <p className=" text-gray-500 ">Couriel</p>
+                                                        <p className=" text-gray-500">Couriel</p>
                                                     </div>
                                                     </Link>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="flex justify-between ">
-                                            <p className="text-gray-500 text-[1rem] ">©2024 DanRooy studio</p>
+                                            <p className="text-gray-500 text-[1.5rem] ">©2024 DanRooy studio</p>
                                             <div className="flex gap-5">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="fill-gray-500 w-[1.2rem]">
                                                     <title>LinkedIn</title>
