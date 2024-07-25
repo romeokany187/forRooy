@@ -51,24 +51,24 @@ const ButtonMenu = () => {
                             <>
                                 <div className="">
                                     <div className="w-full h-[90vh] flex flex-col justify-center  gap-[9rem] ">
-                                        <div className="flex gap-[15rem] mt-12 text-[1.7rem] font-bold">
+                                        <div className="flex gap-[15rem] mt-12 text-[1.7rem] font-bold text-[#c4c3c3]">
                                             <div className="">
-                                                <p className="text-[#dce5e2]  mb-4">Bienvenue</p>
+                                                <p className="mb-4">Bienvenue</p>
                                                 <div className="flex flex-col gap-2 ">
-                                                    <Link href="/aboutt"><div className="text-[#dce5e2]  cursor-pointer ">Apropos</div></Link>
-                                                    <Link href="/expertise"><div className="text-[#dce5e2]  cursor-pointer">Expertise</div></Link>
-                                                    <Link href="/projects"><div className="text-[#dce5e2]  cursor-pointer">Projets</div></Link>
-                                                    <Link href="/blog"><div className="text-[#dce5e2]  cursor-pointer">Blog</div></Link>
+                                                    <Link href="/aboutt"><div className="cursor-pointer ">Apropos</div></Link>
+                                                    <Link href="/expertise"><div className="cursor-pointer">Expertise</div></Link>
+                                                    <Link href="/projects"><div className="cursor-pointer">Projets</div></Link>
+                                                    <Link href="/blog"><div className="cursor-pointer">Blog</div></Link>
                                                 </div>
                                             </div>
 
                                             <div className="">
-                                                <p className="text-[#dce5e2]   mb-4">Evèments</p>
+                                                <p className=" mb-4">Evèments</p>
                                                 <div className="flex flex-col gap-2  ">
-                                                    <Link href="/presse"><div className="text-[#dce5e2]  cursor-pointer ">Presse</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Services</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Contacts</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer flex gap-2">
+                                                    <Link href="/presse"><div className="cursor-pointer ">Presse</div></Link>
+                                                    <Link href="/"><div className="cursor-pointer">Services</div></Link>
+                                                    <Link href="/"><div className="cursor-pointer">Contacts</div></Link>
+                                                    <Link href="/"><div className="cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="fill-gray-500 w-[1.2rem] ">
                                                             <title>Mail</title>
                                                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
@@ -77,7 +77,7 @@ const ButtonMenu = () => {
                                                         <p className=" text-gray-500 font-medium text-[1.2rem] ">Couriel</p>
                                                     </div>
                                                     </Link>
-                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer flex gap-2">
+                                                    <Link href="/"><div className="cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="fill-gray-500 w-[1.2rem] ">
                                                             <title>Téléphone</title>
                                                             <path d="M6.62 10.79a15.466 15.466 0 0 0 6.59 6.59l2.2-2.2a1.14 1.14 0 0 1 1.16-.27c1.26.42 2.62.65 4.02.65a1.15 1.15 0 0 1 1.15 1.15v3.84a1.15 1.15 0 0 1-1.15 1.15C10.65 22 2 13.35 2 2.15A1.15 1.15 0 0 1 3.15 1h3.84a1.15 1.15 0 0 1 1.15 1.15c0 1.4.23 2.76.65 4.02.14.46.02.97-.27 1.16l-2.2 2.2z" />
