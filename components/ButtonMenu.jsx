@@ -66,8 +66,8 @@ const ButtonMenu = () => {
                                                 <p className="text-[#dce5e2]   mb-4">Evèments</p>
                                                 <div className="flex flex-col gap-2  ">
                                                     <Link href="/presse"><div className="text-[#dce5e2]  cursor-pointer ">Presse</div></Link>
-                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Contacts</div></Link>
                                                     <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Services</div></Link>
+                                                    <Link href="/"><div className="text-[#dce5e2]  cursor-pointer">Contacts</div></Link>
                                                     <Link href="/"><div className="text-[#dce5e2]  cursor-pointer flex gap-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="fill-gray-500 w-[1.2rem] ">
                                                             <title>Mail</title>
